@@ -76,6 +76,8 @@
             // LowerCheckBox
             // 
             this.LowerCheckBox.AutoSize = true;
+            this.LowerCheckBox.Checked = true;
+            this.LowerCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.LowerCheckBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.LowerCheckBox.Location = new System.Drawing.Point(16, 192);
             this.LowerCheckBox.Margin = new System.Windows.Forms.Padding(4);
@@ -88,6 +90,8 @@
             // UpperCheckBox
             // 
             this.UpperCheckBox.AutoSize = true;
+            this.UpperCheckBox.Checked = true;
+            this.UpperCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.UpperCheckBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.UpperCheckBox.Location = new System.Drawing.Point(16, 168);
             this.UpperCheckBox.Margin = new System.Windows.Forms.Padding(4);
@@ -100,6 +104,8 @@
             // SpecialCheckBox
             // 
             this.SpecialCheckBox.AutoSize = true;
+            this.SpecialCheckBox.Checked = true;
+            this.SpecialCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.SpecialCheckBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.SpecialCheckBox.Location = new System.Drawing.Point(16, 144);
             this.SpecialCheckBox.Margin = new System.Windows.Forms.Padding(4);
@@ -123,6 +129,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "6",
@@ -178,6 +185,8 @@
             // DigitsCheckBox
             // 
             this.DigitsCheckBox.AutoSize = true;
+            this.DigitsCheckBox.Checked = true;
+            this.DigitsCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.DigitsCheckBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.DigitsCheckBox.Location = new System.Drawing.Point(16, 120);
             this.DigitsCheckBox.Margin = new System.Windows.Forms.Padding(4);
@@ -283,6 +292,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "StartForm";
             this.Text = "PasswordGenerator";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.StartForm_FormClosing);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

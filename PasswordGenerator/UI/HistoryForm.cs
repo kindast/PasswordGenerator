@@ -15,6 +15,7 @@ namespace PasswordGenerator
         public HistoryForm()
         {
             InitializeComponent();
+            richTextBox1.Text = Properties.Settings.Default.History;
         }
     }
 }
