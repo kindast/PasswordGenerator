@@ -117,145 +117,107 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="richTextBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 32</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>273, 353</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>Clear</value>
-  </data>
-  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="CharLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="CharLbl.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="CharLbl.Text" xml:space="preserve">
-    <value>Recently generated Passwords</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>History</value>
-  </data>
-  <data name="CharLbl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 8</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="richTextBox1.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
-    <value>ForcedBoth</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>HistoryForm</value>
-  </data>
-  <data name="CharLbl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
-    <value>richTextBox1</value>
-  </data>
-  <data name="&gt;&gt;CharLbl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 280</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 32</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 312</value>
-  </data>
-  <data name="CharLbl.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 276</value>
-  </data>
-  <data name="&gt;&gt;CharLbl.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 28</value>
-  </data>
-  <data name="richTextBox1.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;CharLbl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
+    <value>115, 26</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
-    <value>Save to file...</value>
+    <value>Буфер обмена</value>
   </data>
-  <data name="&gt;&gt;CharLbl.Name" xml:space="preserve">
-    <value>CharLbl</value>
+  <data name="PasswordLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 15</value>
   </data>
-  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="PasswordLbl.Text" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="LowerCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 17</value>
+  </data>
+  <data name="LowerCheckBox.Text" xml:space="preserve">
+    <value>Строчные буквы (a - z)</value>
+  </data>
+  <data name="UpperCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 17</value>
+  </data>
+  <data name="UpperCheckBox.Text" xml:space="preserve">
+    <value>Прописные буквы (A - Z)</value>
+  </data>
+  <data name="SpecialCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 17</value>
+  </data>
+  <data name="SpecialCheckBox.Text" xml:space="preserve">
+    <value>Специальные символы ($!#@)</value>
   </data>
   <data name="CharLbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 15</value>
+    <value>152, 15</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 312</value>
+  <data name="CharLbl.Text" xml:space="preserve">
+    <value>Используемые символы</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="LengthLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 15</value>
   </data>
-  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="LengthLbl.Text" xml:space="preserve">
+    <value>Длина</value>
   </data>
-  <data name="CharLbl.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="DigitsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
   </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="DigitsCheckBox.Text" xml:space="preserve">
+    <value>Цифры (0-9)</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="GenerateBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 280</value>
+  </data>
+  <data name="GenerateBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 26</value>
+  </data>
+  <data name="GenerateBtn.Text" xml:space="preserve">
+    <value>Сгенерировать</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 19</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="historyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="historyToolStripMenuItem.Text" xml:space="preserve">
+    <value>История</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 19</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="generateSettingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 22</value>
+  </data>
+  <data name="generateSettingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Параметры генерации</value>
+  </data>
+  <data name="languageSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 22</value>
+  </data>
+  <data name="languageSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Языковые параметры</value>
+  </data>
+  <data name="resetSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 22</value>
+  </data>
+  <data name="resetSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сброс параметров</value>
+  </data>
 </root>

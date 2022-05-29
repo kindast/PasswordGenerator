@@ -117,7 +117,559 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 280</value>
+  </data>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 26</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Clipboard</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PasswordLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PasswordLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="PasswordLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PasswordLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 224</value>
+  </data>
+  <data name="PasswordLbl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 4, 0</value>
+  </data>
+  <data name="PasswordLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 15</value>
+  </data>
+  <data name="PasswordLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="PasswordLbl.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="&gt;&gt;PasswordLbl.Name" xml:space="preserve">
+    <value>PasswordLbl</value>
+  </data>
+  <data name="&gt;&gt;PasswordLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PasswordLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PasswordLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LowerCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LowerCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LowerCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 192</value>
+  </data>
+  <data name="LowerCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="LowerCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 17</value>
+  </data>
+  <data name="LowerCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="LowerCheckBox.Text" xml:space="preserve">
+    <value>Lowercase Letters (a - z)</value>
+  </data>
+  <data name="&gt;&gt;LowerCheckBox.Name" xml:space="preserve">
+    <value>LowerCheckBox</value>
+  </data>
+  <data name="&gt;&gt;LowerCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LowerCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LowerCheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="UpperCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UpperCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UpperCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 168</value>
+  </data>
+  <data name="UpperCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="UpperCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 17</value>
+  </data>
+  <data name="UpperCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="UpperCheckBox.Text" xml:space="preserve">
+    <value>Uppercase Letters (A - Z)</value>
+  </data>
+  <data name="&gt;&gt;UpperCheckBox.Name" xml:space="preserve">
+    <value>UpperCheckBox</value>
+  </data>
+  <data name="&gt;&gt;UpperCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpperCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UpperCheckBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SpecialCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SpecialCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SpecialCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 144</value>
+  </data>
+  <data name="SpecialCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="SpecialCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 17</value>
+  </data>
+  <data name="SpecialCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="SpecialCheckBox.Text" xml:space="preserve">
+    <value>Special Characters ($!#@)</value>
+  </data>
+  <data name="&gt;&gt;SpecialCheckBox.Name" xml:space="preserve">
+    <value>SpecialCheckBox</value>
+  </data>
+  <data name="&gt;&gt;SpecialCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SpecialCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SpecialCheckBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CharLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CharLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="CharLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CharLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 96</value>
+  </data>
+  <data name="CharLbl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="CharLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 15</value>
+  </data>
+  <data name="CharLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="CharLbl.Text" xml:space="preserve">
+    <value>Used Characters</value>
+  </data>
+  <data name="&gt;&gt;CharLbl.Name" xml:space="preserve">
+    <value>CharLbl</value>
+  </data>
+  <data name="&gt;&gt;CharLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CharLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CharLbl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="comboBox1.Items2" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="comboBox1.Items3" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="comboBox1.Items4" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="comboBox1.Items5" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="comboBox1.Items6" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="comboBox1.Items7" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="comboBox1.Items8" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="comboBox1.Items9" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="comboBox1.Items10" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="comboBox1.Items11" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="comboBox1.Items12" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="comboBox1.Items13" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="comboBox1.Items14" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="comboBox1.Items15" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="comboBox1.Items16" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="comboBox1.Items17" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="comboBox1.Items18" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="comboBox1.Items19" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="comboBox1.Items20" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="comboBox1.Items21" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="comboBox1.Items22" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 56</value>
+  </data>
+  <data name="comboBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 21</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 248</value>
+  </data>
+  <data name="textBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 20</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="textBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LengthLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LengthLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="LengthLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LengthLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 32</value>
+  </data>
+  <data name="LengthLbl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="LengthLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
+  </data>
+  <data name="LengthLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="LengthLbl.Text" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="&gt;&gt;LengthLbl.Name" xml:space="preserve">
+    <value>LengthLbl</value>
+  </data>
+  <data name="&gt;&gt;LengthLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LengthLbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LengthLbl.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="DigitsCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DigitsCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DigitsCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 120</value>
+  </data>
+  <data name="DigitsCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="DigitsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="DigitsCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="DigitsCheckBox.Text" xml:space="preserve">
+    <value>Digits (0-9)</value>
+  </data>
+  <data name="&gt;&gt;DigitsCheckBox.Name" xml:space="preserve">
+    <value>DigitsCheckBox</value>
+  </data>
+  <data name="&gt;&gt;DigitsCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DigitsCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DigitsCheckBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="GenerateBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GenerateBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 280</value>
+  </data>
+  <data name="GenerateBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="GenerateBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 26</value>
+  </data>
+  <data name="GenerateBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="GenerateBtn.Text" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="&gt;&gt;GenerateBtn.Name" xml:space="preserve">
+    <value>GenerateBtn</value>
+  </data>
+  <data name="&gt;&gt;GenerateBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GenerateBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GenerateBtn.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 19</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="generateSettingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="generateSettingToolStripMenuItem.Text" xml:space="preserve">
+    <value>Generation Settings</value>
+  </data>
+  <data name="languageSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 22</value>
+  </data>
+  <data name="languageSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Language Settings</value>
+  </data>
+  <data name="resetSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="resetSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reset Settings</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 19</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 3, 0, 3</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 25</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="historyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="historyToolStripMenuItem.Text" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>443, 322</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>PasswordGenerator</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;historyToolStripMenuItem.Name" xml:space="preserve">
+    <value>historyToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;historyToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem.Name" xml:space="preserve">
+    <value>settingsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;generateSettingToolStripMenuItem.Name" xml:space="preserve">
+    <value>generateSettingToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;generateSettingToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languageSettingsToolStripMenuItem.Name" xml:space="preserve">
+    <value>languageSettingsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;languageSettingsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resetSettingsToolStripMenuItem.Name" xml:space="preserve">
+    <value>resetSettingsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;resetSettingsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>StartForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

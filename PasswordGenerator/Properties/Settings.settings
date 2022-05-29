@@ -5,10 +5,6 @@
     <Setting Name="Digits" Type="System.String" Scope="User">
       <Value Profile="(Default)">0123456789</Value>
     </Setting>
-    <Setting Name="Special" Type="System.String" Scope="User">
-      <Value Profile="(Default)">!?.:,_(){}[]/\%@#$~-+
-</Value>
-    </Setting>
     <Setting Name="Uppercase" Type="System.String" Scope="User">
       <Value Profile="(Default)">ABCDEFGHIJKLMNOPQRSTUVWXYZ</Value>
     </Setting>
@@ -16,10 +12,13 @@
       <Value Profile="(Default)">abcdefghijklmnopqrstuvwxyz</Value>
     </Setting>
     <Setting Name="Language" Type="System.String" Scope="User">
-      <Value Profile="(Default)">en</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="History" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Special" Type="System.String" Scope="User">
+      <Value Profile="(Default)">!?%@#$~-+</Value>
     </Setting>
   </Settings>
 </SettingsFile>

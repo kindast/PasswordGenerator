@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartForm));
             this.button1 = new System.Windows.Forms.Button();
             this.PasswordLbl = new System.Windows.Forms.Label();
             this.LowerCheckBox = new System.Windows.Forms.CheckBox();
@@ -52,173 +53,108 @@
             // 
             // button1
             // 
-            this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button1.Location = new System.Drawing.Point(232, 280);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(80, 26);
-            this.button1.TabIndex = 23;
-            this.button1.Text = "Clipboard";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.CopyPasswordToClipboard);
             // 
             // PasswordLbl
             // 
-            this.PasswordLbl.AutoSize = true;
-            this.PasswordLbl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.PasswordLbl.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.PasswordLbl.Location = new System.Drawing.Point(16, 224);
-            this.PasswordLbl.Margin = new System.Windows.Forms.Padding(0, 0, 4, 0);
+            resources.ApplyResources(this.PasswordLbl, "PasswordLbl");
             this.PasswordLbl.Name = "PasswordLbl";
-            this.PasswordLbl.Size = new System.Drawing.Size(59, 15);
-            this.PasswordLbl.TabIndex = 22;
-            this.PasswordLbl.Text = "Password";
             // 
             // LowerCheckBox
             // 
-            this.LowerCheckBox.AutoSize = true;
+            resources.ApplyResources(this.LowerCheckBox, "LowerCheckBox");
             this.LowerCheckBox.Checked = true;
             this.LowerCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.LowerCheckBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.LowerCheckBox.Location = new System.Drawing.Point(16, 192);
-            this.LowerCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.LowerCheckBox.Name = "LowerCheckBox";
-            this.LowerCheckBox.Size = new System.Drawing.Size(142, 17);
-            this.LowerCheckBox.TabIndex = 21;
-            this.LowerCheckBox.Text = "Lowercase Letters (a - z)";
             this.LowerCheckBox.UseVisualStyleBackColor = true;
             // 
             // UpperCheckBox
             // 
-            this.UpperCheckBox.AutoSize = true;
+            resources.ApplyResources(this.UpperCheckBox, "UpperCheckBox");
             this.UpperCheckBox.Checked = true;
             this.UpperCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.UpperCheckBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.UpperCheckBox.Location = new System.Drawing.Point(16, 168);
-            this.UpperCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.UpperCheckBox.Name = "UpperCheckBox";
-            this.UpperCheckBox.Size = new System.Drawing.Size(145, 17);
-            this.UpperCheckBox.TabIndex = 20;
-            this.UpperCheckBox.Text = "Uppercase Letters (A - Z)";
             this.UpperCheckBox.UseVisualStyleBackColor = true;
             // 
             // SpecialCheckBox
             // 
-            this.SpecialCheckBox.AutoSize = true;
+            resources.ApplyResources(this.SpecialCheckBox, "SpecialCheckBox");
             this.SpecialCheckBox.Checked = true;
             this.SpecialCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.SpecialCheckBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.SpecialCheckBox.Location = new System.Drawing.Point(16, 144);
-            this.SpecialCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.SpecialCheckBox.Name = "SpecialCheckBox";
-            this.SpecialCheckBox.Size = new System.Drawing.Size(151, 17);
-            this.SpecialCheckBox.TabIndex = 19;
-            this.SpecialCheckBox.Text = "Special Characters ($!#@)";
             this.SpecialCheckBox.UseVisualStyleBackColor = true;
             // 
             // CharLbl
             // 
-            this.CharLbl.AutoSize = true;
-            this.CharLbl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.CharLbl.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharLbl.Location = new System.Drawing.Point(16, 96);
-            this.CharLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.CharLbl, "CharLbl");
             this.CharLbl.Name = "CharLbl";
-            this.CharLbl.Size = new System.Drawing.Size(97, 15);
-            this.CharLbl.TabIndex = 18;
-            this.CharLbl.Text = "Used Characters";
             // 
             // comboBox1
             // 
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24",
-            "25",
-            "26",
-            "27",
-            "28"});
-            this.comboBox1.Location = new System.Drawing.Point(16, 56);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
+            resources.GetString("comboBox1.Items"),
+            resources.GetString("comboBox1.Items1"),
+            resources.GetString("comboBox1.Items2"),
+            resources.GetString("comboBox1.Items3"),
+            resources.GetString("comboBox1.Items4"),
+            resources.GetString("comboBox1.Items5"),
+            resources.GetString("comboBox1.Items6"),
+            resources.GetString("comboBox1.Items7"),
+            resources.GetString("comboBox1.Items8"),
+            resources.GetString("comboBox1.Items9"),
+            resources.GetString("comboBox1.Items10"),
+            resources.GetString("comboBox1.Items11"),
+            resources.GetString("comboBox1.Items12"),
+            resources.GetString("comboBox1.Items13"),
+            resources.GetString("comboBox1.Items14"),
+            resources.GetString("comboBox1.Items15"),
+            resources.GetString("comboBox1.Items16"),
+            resources.GetString("comboBox1.Items17"),
+            resources.GetString("comboBox1.Items18"),
+            resources.GetString("comboBox1.Items19"),
+            resources.GetString("comboBox1.Items20"),
+            resources.GetString("comboBox1.Items21"),
+            resources.GetString("comboBox1.Items22")});
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(410, 21);
-            this.comboBox1.TabIndex = 17;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(16, 248);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(408, 20);
-            this.textBox1.TabIndex = 15;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // LengthLbl
             // 
-            this.LengthLbl.AutoSize = true;
-            this.LengthLbl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.LengthLbl.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.LengthLbl.Location = new System.Drawing.Point(16, 32);
-            this.LengthLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.LengthLbl, "LengthLbl");
             this.LengthLbl.Name = "LengthLbl";
-            this.LengthLbl.Size = new System.Drawing.Size(46, 15);
-            this.LengthLbl.TabIndex = 14;
-            this.LengthLbl.Text = "Length";
             // 
             // DigitsCheckBox
             // 
-            this.DigitsCheckBox.AutoSize = true;
+            resources.ApplyResources(this.DigitsCheckBox, "DigitsCheckBox");
             this.DigitsCheckBox.Checked = true;
             this.DigitsCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.DigitsCheckBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.DigitsCheckBox.Location = new System.Drawing.Point(16, 120);
-            this.DigitsCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.DigitsCheckBox.Name = "DigitsCheckBox";
-            this.DigitsCheckBox.Size = new System.Drawing.Size(76, 17);
-            this.DigitsCheckBox.TabIndex = 13;
-            this.DigitsCheckBox.Text = "Digits (0-9)";
             this.DigitsCheckBox.UseVisualStyleBackColor = true;
             // 
             // GenerateBtn
             // 
-            this.GenerateBtn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.GenerateBtn.Location = new System.Drawing.Point(128, 280);
-            this.GenerateBtn.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.GenerateBtn, "GenerateBtn");
             this.GenerateBtn.Name = "GenerateBtn";
-            this.GenerateBtn.Size = new System.Drawing.Size(88, 26);
-            this.GenerateBtn.TabIndex = 12;
-            this.GenerateBtn.Text = "Generate";
             this.GenerateBtn.UseVisualStyleBackColor = true;
-            this.GenerateBtn.Click += new System.EventHandler(this.GeneratePassword);
+            this.GenerateBtn.Click += new System.EventHandler(this.Generate);
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.settingsToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(443, 25);
-            this.menuStrip1.TabIndex = 16;
-            this.menuStrip1.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
             // 
@@ -226,21 +162,18 @@
             this.historyToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 19);
-            this.fileToolStripMenuItem.Text = "File";
+            resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
             // 
             // historyToolStripMenuItem
             // 
             this.historyToolStripMenuItem.Name = "historyToolStripMenuItem";
-            this.historyToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
-            this.historyToolStripMenuItem.Text = "History";
+            resources.ApplyResources(this.historyToolStripMenuItem, "historyToolStripMenuItem");
             this.historyToolStripMenuItem.Click += new System.EventHandler(this.OpenHistory);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
+            resources.ApplyResources(this.exitToolStripMenuItem, "exitToolStripMenuItem");
             // 
             // settingsToolStripMenuItem
             // 
@@ -249,34 +182,30 @@
             this.languageSettingsToolStripMenuItem,
             this.resetSettingsToolStripMenuItem});
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(61, 19);
-            this.settingsToolStripMenuItem.Text = "Settings";
+            resources.ApplyResources(this.settingsToolStripMenuItem, "settingsToolStripMenuItem");
             // 
             // generateSettingToolStripMenuItem
             // 
             this.generateSettingToolStripMenuItem.Name = "generateSettingToolStripMenuItem";
-            this.generateSettingToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
-            this.generateSettingToolStripMenuItem.Text = "Generation Settings";
+            resources.ApplyResources(this.generateSettingToolStripMenuItem, "generateSettingToolStripMenuItem");
             this.generateSettingToolStripMenuItem.Click += new System.EventHandler(this.OpenGenerationSettings);
             // 
             // languageSettingsToolStripMenuItem
             // 
             this.languageSettingsToolStripMenuItem.Name = "languageSettingsToolStripMenuItem";
-            this.languageSettingsToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
-            this.languageSettingsToolStripMenuItem.Text = "Language Settings";
+            resources.ApplyResources(this.languageSettingsToolStripMenuItem, "languageSettingsToolStripMenuItem");
             this.languageSettingsToolStripMenuItem.Click += new System.EventHandler(this.OpenLanguageSettings);
             // 
             // resetSettingsToolStripMenuItem
             // 
             this.resetSettingsToolStripMenuItem.Name = "resetSettingsToolStripMenuItem";
-            this.resetSettingsToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
-            this.resetSettingsToolStripMenuItem.Text = "Reset Settings";
+            resources.ApplyResources(this.resetSettingsToolStripMenuItem, "resetSettingsToolStripMenuItem");
+            this.resetSettingsToolStripMenuItem.Click += new System.EventHandler(this.ResetSettings);
             // 
             // StartForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(443, 322);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.PasswordLbl);
             this.Controls.Add(this.LowerCheckBox);
@@ -291,7 +220,6 @@
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "StartForm";
-            this.Text = "PasswordGenerator";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.StartForm_FormClosing);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

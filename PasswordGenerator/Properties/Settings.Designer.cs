@@ -37,18 +37,6 @@ namespace PasswordGenerator.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("!?.:,_(){}[]/\\%@#$~-+\r\n")]
-        public string Special {
-            get {
-                return ((string)(this["Special"]));
-            }
-            set {
-                this["Special"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("ABCDEFGHIJKLMNOPQRSTUVWXYZ")]
         public string Uppercase {
             get {
@@ -73,7 +61,7 @@ namespace PasswordGenerator.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("en")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string Language {
             get {
                 return ((string)(this["Language"]));
@@ -92,6 +80,18 @@ namespace PasswordGenerator.Properties {
             }
             set {
                 this["History"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("!?%@#$~-+")]
+        public string Special {
+            get {
+                return ((string)(this["Special"]));
+            }
+            set {
+                this["Special"] = value;
             }
         }
     }

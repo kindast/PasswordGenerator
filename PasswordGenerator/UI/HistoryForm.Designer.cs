@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HistoryForm));
             this.CharLbl = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -36,59 +37,39 @@
             // 
             // CharLbl
             // 
-            this.CharLbl.AutoSize = true;
-            this.CharLbl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.CharLbl.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.CharLbl.Location = new System.Drawing.Point(8, 8);
-            this.CharLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.CharLbl, "CharLbl");
             this.CharLbl.Name = "CharLbl";
-            this.CharLbl.Size = new System.Drawing.Size(177, 15);
-            this.CharLbl.TabIndex = 11;
-            this.CharLbl.Text = "Recently generated Passwords";
             // 
             // richTextBox1
             // 
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox1.Location = new System.Drawing.Point(9, 28);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            resources.ApplyResources(this.richTextBox1, "richTextBox1");
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedBoth;
-            this.richTextBox1.Size = new System.Drawing.Size(255, 276);
-            this.richTextBox1.TabIndex = 10;
-            this.richTextBox1.Text = "";
+            this.richTextBox1.ReadOnly = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(144, 312);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(120, 32);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Clear";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.ClearHistory);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(8, 312);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 32);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Save to file...";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.SaveHistoryToFile);
             // 
             // HistoryForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(273, 353);
             this.Controls.Add(this.CharLbl);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "HistoryForm";
-            this.Text = "History";
             this.ResumeLayout(false);
             this.PerformLayout();
 

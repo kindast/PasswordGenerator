@@ -25,6 +25,11 @@ namespace PasswordGenerator
             SpecialTextBox.Text = Properties.Settings.Default.Special;
             UppercaseTextBox.Text = Properties.Settings.Default.Uppercase;
             LowerTextBox.Text = Properties.Settings.Default.Lowercase;
+
+            if (Properties.Settings.Default.Language == "ru")
+                radioButton2.Checked = true;
+            else
+                radioButton1.Checked = true;
         }
 
         private void SaveGenerationSettings(object sender, FormClosingEventArgs e)
@@ -34,6 +39,17 @@ namespace PasswordGenerator
             Properties.Settings.Default.Uppercase = UppercaseTextBox.Text;
             Properties.Settings.Default.Lowercase = LowerTextBox.Text;
             Properties.Settings.Default.Save();
+        }
+
+        private void SaveLanguageSettings(object sender, EventArgs e)
+        {
+            if (radioButton2.Checked)
+                Properties.Settings.Default.Language = "ru";
+            else
+                Properties.Settings.Default.Language = "en";
+
+            Properties.Settings.Default.Save();
+            Application.Restart();
         }
     }
 }
