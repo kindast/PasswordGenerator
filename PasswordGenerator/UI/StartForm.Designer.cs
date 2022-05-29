@@ -197,6 +197,7 @@
             this.GenerateBtn.TabIndex = 12;
             this.GenerateBtn.Text = "Generate";
             this.GenerateBtn.UseVisualStyleBackColor = true;
+            this.GenerateBtn.Click += new System.EventHandler(this.GeneratePassword);
             // 
             // menuStrip1
             // 
@@ -224,6 +225,7 @@
             this.historyToolStripMenuItem.Name = "historyToolStripMenuItem";
             this.historyToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.historyToolStripMenuItem.Text = "History";
+            this.historyToolStripMenuItem.Click += new System.EventHandler(this.OpenHistory);
             // 
             // exitToolStripMenuItem
             // 
@@ -246,12 +248,14 @@
             this.generateSettingToolStripMenuItem.Name = "generateSettingToolStripMenuItem";
             this.generateSettingToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.generateSettingToolStripMenuItem.Text = "Generation Settings";
+            this.generateSettingToolStripMenuItem.Click += new System.EventHandler(this.OpenGenerationSettings);
             // 
             // languageSettingsToolStripMenuItem
             // 
             this.languageSettingsToolStripMenuItem.Name = "languageSettingsToolStripMenuItem";
             this.languageSettingsToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.languageSettingsToolStripMenuItem.Text = "Language Settings";
+            this.languageSettingsToolStripMenuItem.Click += new System.EventHandler(this.OpenLanguageSettings);
             // 
             // resetSettingsToolStripMenuItem
             // 
@@ -259,7 +263,7 @@
             this.resetSettingsToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.resetSettingsToolStripMenuItem.Text = "Reset Settings";
             // 
-            // Form1
+            // StartForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -277,7 +281,7 @@
             this.Controls.Add(this.GenerateBtn);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Form1";
+            this.Name = "StartForm";
             this.Text = "PasswordGenerator";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

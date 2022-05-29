@@ -1,7 +1,22 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PasswordGenerator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Digits" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0123456789</Value>
+    </Setting>
+    <Setting Name="Special" Type="System.String" Scope="User">
+      <Value Profile="(Default)">!?.:,_(){}[]/\%@#$~-+
+</Value>
+    </Setting>
+    <Setting Name="Uppercase" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ABCDEFGHIJKLMNOPQRSTUVWXYZ</Value>
+    </Setting>
+    <Setting Name="Lowercase" Type="System.String" Scope="User">
+      <Value Profile="(Default)">abcdefghijklmnopqrstuvwxyz</Value>
+    </Setting>
+    <Setting Name="Language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">en</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>
