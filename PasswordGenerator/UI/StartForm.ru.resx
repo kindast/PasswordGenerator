@@ -133,22 +133,13 @@
   <data name="PasswordLbl.Text" xml:space="preserve">
     <value>Пароль</value>
   </data>
-  <data name="LowerCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 17</value>
-  </data>
-  <data name="LowerCheckBox.Text" xml:space="preserve">
+  <data name="cbLower.Text" xml:space="preserve">
     <value>Строчные буквы (a - z)</value>
   </data>
-  <data name="UpperCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 17</value>
-  </data>
-  <data name="UpperCheckBox.Text" xml:space="preserve">
+  <data name="cbUpper.Text" xml:space="preserve">
     <value>Прописные буквы (A - Z)</value>
   </data>
-  <data name="SpecialCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 17</value>
-  </data>
-  <data name="SpecialCheckBox.Text" xml:space="preserve">
+  <data name="cbSpecial.Text" xml:space="preserve">
     <value>Специальные символы ($!#@)</value>
   </data>
   <data name="CharLbl.Size" type="System.Drawing.Size, System.Drawing">
@@ -163,10 +154,7 @@
   <data name="LengthLbl.Text" xml:space="preserve">
     <value>Длина</value>
   </data>
-  <data name="DigitsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 17</value>
-  </data>
-  <data name="DigitsCheckBox.Text" xml:space="preserve">
+  <data name="cbDigits.Text" xml:space="preserve">
     <value>Цифры (0-9)</value>
   </data>
   <data name="GenerateBtn.Location" type="System.Drawing.Point, System.Drawing">
@@ -219,5 +207,20 @@
   </data>
   <data name="resetSettingsToolStripMenuItem.Text" xml:space="preserve">
     <value>Сброс параметров</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Генератор паролей</value>
+  </data>
+  <data name="LowerCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 17</value>
+  </data>
+  <data name="UpperCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 17</value>
+  </data>
+  <data name="SpecialCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 17</value>
+  </data>
+  <data name="DigitsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
   </data>
 </root>

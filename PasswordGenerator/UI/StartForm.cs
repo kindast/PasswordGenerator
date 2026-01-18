@@ -1,48 +1,54 @@
-﻿using System;
-using System.Text;
+﻿using PasswordGenerator.Properties;
+using System;
+using System.Globalization;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace PasswordGenerator
 {
     public partial class StartForm : Form
     {
+        private readonly Classes.PasswordGenerator _passwordGenerator;
+
         public StartForm()
         {
-            if (string.IsNullOrEmpty(Properties.Settings.Default.Language))
+            if (string.IsNullOrEmpty(Settings.Default.Language))
             {
-                Properties.Settings.Default.Reset();
+                Settings.Default.Reset();
 
-                string Culture = System.Globalization.CultureInfo.CurrentUICulture.Name;
+                string culture = CultureInfo.CurrentUICulture.Name;
 
-                if (Culture.StartsWith("ru"))
-                    Properties.Settings.Default.Language = "ru";
+                if (culture.StartsWith("ru"))
+                    Settings.Default.Language = "ru";
                 else
-                    Properties.Settings.Default.Language = "en";
+                    Settings.Default.Language = "en";
 
-                Properties.Settings.Default.Save();
+                Settings.Default.Save();
             }
 
-            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(Properties.Settings.Default.Language);
-            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(Properties.Settings.Default.Language);
+            Thread.CurrentThread.CurrentCulture = new CultureInfo(Settings.Default.Language);
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(Settings.Default.Language);
 
             InitializeComponent();
+            _passwordGenerator = new Classes.PasswordGenerator(Settings.Default.Digits,
+                Settings.Default.Lowercase, Settings.Default.Uppercase, Settings.Default.Special);
 
-            comboBox1.SelectedIndex = 0;
+            cbLength.SelectedIndex = 0;
         }
-        
-        
+
+
 
         private void OpenHistory(object sender, EventArgs e)
         {
-            HistoryForm History = new HistoryForm();
-            History.ShowDialog();
+            HistoryForm historyForm = new HistoryForm();
+            historyForm.ShowDialog();
         }
 
         private void OpenSettings(int TabControlIndex)
         {
-            SettingsForm settings = new SettingsForm();
-            settings.tabControl1.SelectedIndex = TabControlIndex;
-            settings.ShowDialog();
+            SettingsForm settingsForm = new SettingsForm();
+            settingsForm.tabControl1.SelectedIndex = TabControlIndex;
+            settingsForm.ShowDialog();
         }
 
         private void OpenGenerationSettings(object sender, EventArgs e)
@@ -58,77 +64,43 @@ namespace PasswordGenerator
 
         private void StartForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Properties.Settings.Default.History = "";
-            Properties.Settings.Default.Save();
+            Settings.Default.History = "";
+            Settings.Default.Save();
         }
 
         private void CopyPasswordToClipboard(object sender, EventArgs e)
         {
-            if (textBox1.Text == string.Empty)
-                textBox1.Text = GeneratePassword();
+            if (tbPassword.Text == string.Empty)
+                tbPassword.Text = GeneratePassword();
 
-            Clipboard.SetText(textBox1.Text);
-        }
-
-        private string GeneratePassword()
-        {
-            StringBuilder password = new StringBuilder();
-            Random random = new Random();
-            while (password.Length < Convert.ToInt32(comboBox1.Text))
-            {
-                int choiceTypeOfChar = random.Next(1, 5);
-                int choiceChar;
-                switch (choiceTypeOfChar)
-                {
-                    case 1:
-                        if (DigitsCheckBox.Checked)
-                        {
-                            choiceChar = random.Next(0, Properties.Settings.Default.Digits.Length);
-                            password.Append(Properties.Settings.Default.Digits[choiceChar]);
-                        }
-                        break;
-
-                    case 2:
-                        if (SpecialCheckBox.Checked)
-                        {
-                            choiceChar = random.Next(0, Properties.Settings.Default.Special.Length);
-                            password.Append(Properties.Settings.Default.Special[choiceChar]);
-                        }
-                        break;
-
-                    case 3:
-                        if (UpperCheckBox.Checked)
-                        {
-                            choiceChar = random.Next(0, Properties.Settings.Default.Uppercase.Length);
-                            password.Append(Properties.Settings.Default.Uppercase[choiceChar]);
-                        }
-                        break;
-
-                    case 4:
-                        if (LowerCheckBox.Checked)
-                        {
-                            choiceChar = random.Next(0, Properties.Settings.Default.Lowercase.Length);
-                            password.Append(Properties.Settings.Default.Lowercase[choiceChar]);
-                        }
-                        break;
-                }
-            }
-
-            Properties.Settings.Default.History += $"{password.ToString()}\n";
-            return password.ToString();
+            Clipboard.SetText(tbPassword.Text);
         }
 
         private void Generate(object sender, EventArgs e)
         {
-            textBox1.Text = GeneratePassword();
+            tbPassword.Text = GeneratePassword();
+        }
+
+        private string GeneratePassword()
+        {
+            string password = _passwordGenerator.Generate(int.Parse(cbLength.Text),
+                cbDigits.Checked, cbLower.Checked, cbUpper.Checked, cbSpecial.Checked);
+            Settings.Default.History += password + "\n";
+            return password;
         }
 
         private void ResetSettings(object sender, EventArgs e)
         {
-            Properties.Settings.Default.Language = "";
-            Properties.Settings.Default.Save();
+            Settings.Default.Language = "";
+            Settings.Default.Save();
 
             Application.Restart();
         }
+
+        private void Exit(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
     }
 }

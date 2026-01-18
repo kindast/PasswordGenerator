@@ -52,15 +52,14 @@
             // 
             // tabControl1
             // 
-            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             // 
             // tabPage1
             // 
-            resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.Controls.Add(this.LowerTextBox);
             this.tabPage1.Controls.Add(this.UppercaseTextBox);
             this.tabPage1.Controls.Add(this.SpecialTextBox);
@@ -70,6 +69,7 @@
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.CharLbl);
             this.tabPage1.Controls.Add(this.DigitsTextBox);
+            resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
@@ -120,11 +120,11 @@
             // 
             // tabPage2
             // 
-            resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Controls.Add(this.button1);
             this.tabPage2.Controls.Add(this.radioButton2);
             this.tabPage2.Controls.Add(this.radioButton1);
             this.tabPage2.Controls.Add(this.label5);
+            resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
@@ -160,6 +160,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "SettingsForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SaveGenerationSettings);
             this.tabControl1.ResumeLayout(false);

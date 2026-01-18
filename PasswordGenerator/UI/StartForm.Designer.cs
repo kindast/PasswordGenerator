@@ -31,14 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartForm));
             this.button1 = new System.Windows.Forms.Button();
             this.PasswordLbl = new System.Windows.Forms.Label();
-            this.LowerCheckBox = new System.Windows.Forms.CheckBox();
-            this.UpperCheckBox = new System.Windows.Forms.CheckBox();
-            this.SpecialCheckBox = new System.Windows.Forms.CheckBox();
+            this.cbLower = new System.Windows.Forms.CheckBox();
+            this.cbUpper = new System.Windows.Forms.CheckBox();
+            this.cbSpecial = new System.Windows.Forms.CheckBox();
             this.CharLbl = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cbLength = new System.Windows.Forms.ComboBox();
+            this.tbPassword = new System.Windows.Forms.TextBox();
             this.LengthLbl = new System.Windows.Forms.Label();
-            this.DigitsCheckBox = new System.Windows.Forms.CheckBox();
+            this.cbDigits = new System.Windows.Forms.CheckBox();
             this.GenerateBtn = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,83 +63,87 @@
             resources.ApplyResources(this.PasswordLbl, "PasswordLbl");
             this.PasswordLbl.Name = "PasswordLbl";
             // 
-            // LowerCheckBox
+            // cbLower
             // 
-            resources.ApplyResources(this.LowerCheckBox, "LowerCheckBox");
-            this.LowerCheckBox.Checked = true;
-            this.LowerCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.LowerCheckBox.Name = "LowerCheckBox";
-            this.LowerCheckBox.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.cbLower, "cbLower");
+            this.cbLower.Checked = true;
+            this.cbLower.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.cbLower.Name = "cbLower";
+            this.cbLower.UseVisualStyleBackColor = true;
             // 
-            // UpperCheckBox
+            // cbUpper
             // 
-            resources.ApplyResources(this.UpperCheckBox, "UpperCheckBox");
-            this.UpperCheckBox.Checked = true;
-            this.UpperCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.UpperCheckBox.Name = "UpperCheckBox";
-            this.UpperCheckBox.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.cbUpper, "cbUpper");
+            this.cbUpper.Checked = true;
+            this.cbUpper.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.cbUpper.Name = "cbUpper";
+            this.cbUpper.UseVisualStyleBackColor = true;
             // 
-            // SpecialCheckBox
+            // cbSpecial
             // 
-            resources.ApplyResources(this.SpecialCheckBox, "SpecialCheckBox");
-            this.SpecialCheckBox.Checked = true;
-            this.SpecialCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.SpecialCheckBox.Name = "SpecialCheckBox";
-            this.SpecialCheckBox.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.cbSpecial, "cbSpecial");
+            this.cbSpecial.Checked = true;
+            this.cbSpecial.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.cbSpecial.Name = "cbSpecial";
+            this.cbSpecial.UseVisualStyleBackColor = true;
             // 
             // CharLbl
             // 
             resources.ApplyResources(this.CharLbl, "CharLbl");
             this.CharLbl.Name = "CharLbl";
             // 
-            // comboBox1
+            // cbLength
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            resources.GetString("comboBox1.Items"),
-            resources.GetString("comboBox1.Items1"),
-            resources.GetString("comboBox1.Items2"),
-            resources.GetString("comboBox1.Items3"),
-            resources.GetString("comboBox1.Items4"),
-            resources.GetString("comboBox1.Items5"),
-            resources.GetString("comboBox1.Items6"),
-            resources.GetString("comboBox1.Items7"),
-            resources.GetString("comboBox1.Items8"),
-            resources.GetString("comboBox1.Items9"),
-            resources.GetString("comboBox1.Items10"),
-            resources.GetString("comboBox1.Items11"),
-            resources.GetString("comboBox1.Items12"),
-            resources.GetString("comboBox1.Items13"),
-            resources.GetString("comboBox1.Items14"),
-            resources.GetString("comboBox1.Items15"),
-            resources.GetString("comboBox1.Items16"),
-            resources.GetString("comboBox1.Items17"),
-            resources.GetString("comboBox1.Items18"),
-            resources.GetString("comboBox1.Items19"),
-            resources.GetString("comboBox1.Items20"),
-            resources.GetString("comboBox1.Items21"),
-            resources.GetString("comboBox1.Items22")});
-            resources.ApplyResources(this.comboBox1, "comboBox1");
-            this.comboBox1.Name = "comboBox1";
+            this.cbLength.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.cbLength, "cbLength");
+            this.cbLength.FormattingEnabled = true;
+            this.cbLength.Items.AddRange(new object[] {
+            resources.GetString("cbLength.Items"),
+            resources.GetString("cbLength.Items1"),
+            resources.GetString("cbLength.Items2"),
+            resources.GetString("cbLength.Items3"),
+            resources.GetString("cbLength.Items4"),
+            resources.GetString("cbLength.Items5"),
+            resources.GetString("cbLength.Items6"),
+            resources.GetString("cbLength.Items7"),
+            resources.GetString("cbLength.Items8"),
+            resources.GetString("cbLength.Items9"),
+            resources.GetString("cbLength.Items10"),
+            resources.GetString("cbLength.Items11"),
+            resources.GetString("cbLength.Items12"),
+            resources.GetString("cbLength.Items13"),
+            resources.GetString("cbLength.Items14"),
+            resources.GetString("cbLength.Items15"),
+            resources.GetString("cbLength.Items16"),
+            resources.GetString("cbLength.Items17"),
+            resources.GetString("cbLength.Items18"),
+            resources.GetString("cbLength.Items19"),
+            resources.GetString("cbLength.Items20"),
+            resources.GetString("cbLength.Items21"),
+            resources.GetString("cbLength.Items22"),
+            resources.GetString("cbLength.Items23"),
+            resources.GetString("cbLength.Items24"),
+            resources.GetString("cbLength.Items25"),
+            resources.GetString("cbLength.Items26")});
+            this.cbLength.Name = "cbLength";
             // 
-            // textBox1
+            // tbPassword
             // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
+            resources.ApplyResources(this.tbPassword, "tbPassword");
+            this.tbPassword.Name = "tbPassword";
             // 
             // LengthLbl
             // 
             resources.ApplyResources(this.LengthLbl, "LengthLbl");
             this.LengthLbl.Name = "LengthLbl";
             // 
-            // DigitsCheckBox
+            // cbDigits
             // 
-            resources.ApplyResources(this.DigitsCheckBox, "DigitsCheckBox");
-            this.DigitsCheckBox.Checked = true;
-            this.DigitsCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.DigitsCheckBox.Name = "DigitsCheckBox";
-            this.DigitsCheckBox.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.cbDigits, "cbDigits");
+            this.cbDigits.Checked = true;
+            this.cbDigits.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.cbDigits.Name = "cbDigits";
+            this.cbDigits.UseVisualStyleBackColor = true;
             // 
             // GenerateBtn
             // 
@@ -174,6 +178,7 @@
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             resources.ApplyResources(this.exitToolStripMenuItem, "exitToolStripMenuItem");
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.Exit);
             // 
             // settingsToolStripMenuItem
             // 
@@ -208,17 +213,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.PasswordLbl);
-            this.Controls.Add(this.LowerCheckBox);
-            this.Controls.Add(this.UpperCheckBox);
-            this.Controls.Add(this.SpecialCheckBox);
+            this.Controls.Add(this.cbLower);
+            this.Controls.Add(this.cbUpper);
+            this.Controls.Add(this.cbSpecial);
             this.Controls.Add(this.CharLbl);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cbLength);
+            this.Controls.Add(this.tbPassword);
             this.Controls.Add(this.LengthLbl);
-            this.Controls.Add(this.DigitsCheckBox);
+            this.Controls.Add(this.cbDigits);
             this.Controls.Add(this.GenerateBtn);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "StartForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.StartForm_FormClosing);
             this.menuStrip1.ResumeLayout(false);
@@ -232,14 +239,14 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label PasswordLbl;
-        private System.Windows.Forms.CheckBox LowerCheckBox;
-        private System.Windows.Forms.CheckBox UpperCheckBox;
-        private System.Windows.Forms.CheckBox SpecialCheckBox;
+        private System.Windows.Forms.CheckBox cbLower;
+        private System.Windows.Forms.CheckBox cbUpper;
+        private System.Windows.Forms.CheckBox cbSpecial;
         private System.Windows.Forms.Label CharLbl;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox cbLength;
+        private System.Windows.Forms.TextBox tbPassword;
         private System.Windows.Forms.Label LengthLbl;
-        private System.Windows.Forms.CheckBox DigitsCheckBox;
+        private System.Windows.Forms.CheckBox cbDigits;
         private System.Windows.Forms.Button GenerateBtn;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;

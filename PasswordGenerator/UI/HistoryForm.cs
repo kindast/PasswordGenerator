@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PasswordGenerator.Properties;
+using System;
 using System.IO;
 using System.Windows.Forms;
 
@@ -9,13 +10,13 @@ namespace PasswordGenerator
         public HistoryForm()
         {
             InitializeComponent();
-            richTextBox1.Text = Properties.Settings.Default.History;
+            richTextBox1.Text = Settings.Default.History;
         }
 
         private void ClearHistory(object sender, EventArgs e)
         {
-            Properties.Settings.Default.History = string.Empty;
-            Properties.Settings.Default.Save();
+            Settings.Default.History = string.Empty;
+            Settings.Default.Save();
 
             richTextBox1.Text = string.Empty;
         }

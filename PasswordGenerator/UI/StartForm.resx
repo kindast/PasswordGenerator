@@ -117,11 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
     <value>232, 280</value>
   </data>
@@ -154,7 +157,7 @@
     <value>True</value>
   </data>
   <data name="PasswordLbl.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
+    <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
   <data name="PasswordLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -166,7 +169,7 @@
     <value>0, 0, 4, 0</value>
   </data>
   <data name="PasswordLbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 15</value>
+    <value>66, 17</value>
   </data>
   <data name="PasswordLbl.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -186,110 +189,119 @@
   <data name="&gt;&gt;PasswordLbl.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="LowerCheckBox.AutoSize" type="System.Boolean, mscorlib">
+  <data name="cbLower.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="LowerCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="cbLower.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="cbLower.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="LowerCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="cbLower.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 192</value>
   </data>
-  <data name="LowerCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="cbLower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="LowerCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 17</value>
+  <data name="cbLower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 21</value>
   </data>
-  <data name="LowerCheckBox.TabIndex" type="System.Int32, mscorlib">
+  <data name="cbLower.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
-  <data name="LowerCheckBox.Text" xml:space="preserve">
+  <data name="cbLower.Text" xml:space="preserve">
     <value>Lowercase Letters (a - z)</value>
   </data>
-  <data name="&gt;&gt;LowerCheckBox.Name" xml:space="preserve">
-    <value>LowerCheckBox</value>
+  <data name="&gt;&gt;cbLower.Name" xml:space="preserve">
+    <value>cbLower</value>
   </data>
-  <data name="&gt;&gt;LowerCheckBox.Type" xml:space="preserve">
+  <data name="&gt;&gt;cbLower.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;LowerCheckBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cbLower.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;LowerCheckBox.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cbLower.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="UpperCheckBox.AutoSize" type="System.Boolean, mscorlib">
+  <data name="cbUpper.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="UpperCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="cbUpper.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="cbUpper.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="UpperCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="cbUpper.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 168</value>
   </data>
-  <data name="UpperCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="cbUpper.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="UpperCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 17</value>
+  <data name="cbUpper.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 21</value>
   </data>
-  <data name="UpperCheckBox.TabIndex" type="System.Int32, mscorlib">
+  <data name="cbUpper.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
-  <data name="UpperCheckBox.Text" xml:space="preserve">
+  <data name="cbUpper.Text" xml:space="preserve">
     <value>Uppercase Letters (A - Z)</value>
   </data>
-  <data name="&gt;&gt;UpperCheckBox.Name" xml:space="preserve">
-    <value>UpperCheckBox</value>
+  <data name="&gt;&gt;cbUpper.Name" xml:space="preserve">
+    <value>cbUpper</value>
   </data>
-  <data name="&gt;&gt;UpperCheckBox.Type" xml:space="preserve">
+  <data name="&gt;&gt;cbUpper.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;UpperCheckBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cbUpper.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;UpperCheckBox.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cbUpper.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="SpecialCheckBox.AutoSize" type="System.Boolean, mscorlib">
+  <data name="cbSpecial.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="SpecialCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="cbSpecial.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="cbSpecial.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="SpecialCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="cbSpecial.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 144</value>
   </data>
-  <data name="SpecialCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="cbSpecial.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="SpecialCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 17</value>
+  <data name="cbSpecial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 21</value>
   </data>
-  <data name="SpecialCheckBox.TabIndex" type="System.Int32, mscorlib">
+  <data name="cbSpecial.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
-  <data name="SpecialCheckBox.Text" xml:space="preserve">
+  <data name="cbSpecial.Text" xml:space="preserve">
     <value>Special Characters ($!#@)</value>
   </data>
-  <data name="&gt;&gt;SpecialCheckBox.Name" xml:space="preserve">
-    <value>SpecialCheckBox</value>
+  <data name="&gt;&gt;cbSpecial.Name" xml:space="preserve">
+    <value>cbSpecial</value>
   </data>
-  <data name="&gt;&gt;SpecialCheckBox.Type" xml:space="preserve">
+  <data name="&gt;&gt;cbSpecial.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;SpecialCheckBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cbSpecial.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;SpecialCheckBox.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cbSpecial.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="CharLbl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="CharLbl.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
+    <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
   <data name="CharLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -301,7 +313,7 @@
     <value>4, 0, 4, 0</value>
   </data>
   <data name="CharLbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 15</value>
+    <value>106, 17</value>
   </data>
   <data name="CharLbl.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -321,131 +333,146 @@
   <data name="&gt;&gt;CharLbl.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="comboBox1.Items" xml:space="preserve">
+  <data name="cbLength.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="cbLength.Items" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
+  <data name="cbLength.Items1" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="comboBox1.Items2" xml:space="preserve">
+  <data name="cbLength.Items2" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="comboBox1.Items3" xml:space="preserve">
+  <data name="cbLength.Items3" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="comboBox1.Items4" xml:space="preserve">
+  <data name="cbLength.Items4" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="comboBox1.Items5" xml:space="preserve">
+  <data name="cbLength.Items5" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="comboBox1.Items6" xml:space="preserve">
+  <data name="cbLength.Items6" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="comboBox1.Items7" xml:space="preserve">
+  <data name="cbLength.Items7" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="comboBox1.Items8" xml:space="preserve">
+  <data name="cbLength.Items8" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="comboBox1.Items9" xml:space="preserve">
+  <data name="cbLength.Items9" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="comboBox1.Items10" xml:space="preserve">
+  <data name="cbLength.Items10" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="comboBox1.Items11" xml:space="preserve">
+  <data name="cbLength.Items11" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="comboBox1.Items12" xml:space="preserve">
+  <data name="cbLength.Items12" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="comboBox1.Items13" xml:space="preserve">
+  <data name="cbLength.Items13" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="comboBox1.Items14" xml:space="preserve">
+  <data name="cbLength.Items14" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="comboBox1.Items15" xml:space="preserve">
+  <data name="cbLength.Items15" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="comboBox1.Items16" xml:space="preserve">
+  <data name="cbLength.Items16" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="comboBox1.Items17" xml:space="preserve">
+  <data name="cbLength.Items17" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="comboBox1.Items18" xml:space="preserve">
+  <data name="cbLength.Items18" xml:space="preserve">
     <value>24</value>
   </data>
-  <data name="comboBox1.Items19" xml:space="preserve">
+  <data name="cbLength.Items19" xml:space="preserve">
     <value>25</value>
   </data>
-  <data name="comboBox1.Items20" xml:space="preserve">
+  <data name="cbLength.Items20" xml:space="preserve">
     <value>26</value>
   </data>
-  <data name="comboBox1.Items21" xml:space="preserve">
+  <data name="cbLength.Items21" xml:space="preserve">
     <value>27</value>
   </data>
-  <data name="comboBox1.Items22" xml:space="preserve">
+  <data name="cbLength.Items22" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="cbLength.Items23" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="cbLength.Items24" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="cbLength.Items25" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="cbLength.Items26" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="cbLength.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 56</value>
   </data>
-  <data name="comboBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="cbLength.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>410, 21</value>
+  <data name="cbLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 25</value>
   </data>
-  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="cbLength.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
-    <value>comboBox1</value>
+  <data name="&gt;&gt;cbLength.Name" xml:space="preserve">
+    <value>cbLength</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;cbLength.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cbLength.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cbLength.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="tbPassword.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="tbPassword.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 248</value>
   </data>
-  <data name="textBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="tbPassword.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>408, 20</value>
+  <data name="tbPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 25</value>
   </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="tbPassword.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <data name="textBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
+  <data name="&gt;&gt;tbPassword.Name" xml:space="preserve">
+    <value>tbPassword</value>
   </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;tbPassword.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;tbPassword.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;tbPassword.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
   <data name="LengthLbl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="LengthLbl.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
+    <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
   <data name="LengthLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -457,7 +484,7 @@
     <value>4, 0, 4, 0</value>
   </data>
   <data name="LengthLbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 15</value>
+    <value>51, 17</value>
   </data>
   <data name="LengthLbl.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -477,38 +504,44 @@
   <data name="&gt;&gt;LengthLbl.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="DigitsCheckBox.AutoSize" type="System.Boolean, mscorlib">
+  <data name="cbDigits.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="DigitsCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="cbDigits.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="cbDigits.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="DigitsCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="cbDigits.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 120</value>
   </data>
-  <data name="DigitsCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="cbDigits.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="DigitsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 17</value>
+  <data name="cbDigits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 21</value>
   </data>
-  <data name="DigitsCheckBox.TabIndex" type="System.Int32, mscorlib">
+  <data name="cbDigits.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="DigitsCheckBox.Text" xml:space="preserve">
+  <data name="cbDigits.Text" xml:space="preserve">
     <value>Digits (0-9)</value>
   </data>
-  <data name="&gt;&gt;DigitsCheckBox.Name" xml:space="preserve">
-    <value>DigitsCheckBox</value>
+  <data name="&gt;&gt;cbDigits.Name" xml:space="preserve">
+    <value>cbDigits</value>
   </data>
-  <data name="&gt;&gt;DigitsCheckBox.Type" xml:space="preserve">
+  <data name="&gt;&gt;cbDigits.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;DigitsCheckBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cbDigits.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;DigitsCheckBox.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cbDigits.ZOrder" xml:space="preserve">
     <value>9</value>
+  </data>
+  <data name="GenerateBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="GenerateBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -543,6 +576,18 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="historyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="historyToolStripMenuItem.Text" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 19</value>
   </data>
@@ -562,7 +607,7 @@
     <value>Language Settings</value>
   </data>
   <data name="resetSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>177, 22</value>
   </data>
   <data name="resetSettingsToolStripMenuItem.Text" xml:space="preserve">
     <value>Reset Settings</value>
@@ -600,18 +645,6 @@
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="historyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
-  </data>
-  <data name="historyToolStripMenuItem.Text" xml:space="preserve">
-    <value>History</value>
-  </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
-  </data>
-  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Exit</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -619,7 +652,206 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>443, 322</value>
+    <value>443, 312</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>PasswordGenerator</value>
